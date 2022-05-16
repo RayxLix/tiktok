@@ -3,6 +3,13 @@
 
 :root{
   --primary: #fe2c55;
+  --black: #000;
+
+  // Default Layout
+  --default-layout-header-height: 60px;
+  --default-layout-width-content: 1150px;
+
+
 }
 
 *{
@@ -20,4 +27,18 @@ body{
   font-size: 1.6rem;
   line-height: 1.5rem;
   text-rendering: optimizeSpeed;
+}
+
+img{
+  width: 100%;
+}
+
+button,input,[tabindex]{
+  outline: none;
+  border: none;
+}
+
+a[heft]{
+  text-decoration: none;
+  color: unset;
 }
